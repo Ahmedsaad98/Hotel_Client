@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Graduation_client</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="enter_your_phone">Enter Your Phone</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="make_reservation">MAKE RESERVATION</string>
+    <string name="no_of_beds">NO. Of Beds</string>
+    <string name="date_checkout">Date Check Out</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="date_checkin">Date Check In</string>
+    <string name="_1">1</string>
+    <string name="new_reservation">New Reservation</string>
+    <string name="my_reservation">My Reservation</string>
+    <string name="img_qr">IMAGE QR</string>
+    <string name="uid">UID</string>
+    <string name="iu_hotel">IU Hotel</string>
+    <string name="prices">1 bed rooms are 20$ a night \n \n 2 bed rooms are 30$ a night \n \n 3 bed rooms are 35$ a night \n \n 4 and 5 bed sweets are 40$ a night</string>
+    <string name="see_pricing">See Pricing</string>
+    <string name="pricing">Pricing</string>
+    <string name="go_to_payments">Go To Payments</string>
+</resources>

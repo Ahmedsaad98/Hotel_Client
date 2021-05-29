@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/b8"
+    tools:context=".Activites.Make_Res">
+
+    <Button
+        android:id="@+id/vr_btn1"
+        style="@style/SecondaryButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/go_to_payments"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/vr_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="150dp"
+        android:text="@string/no_of_beds"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/vr_btn1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/vr_btn2"
+        style="@style/SecondaryButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/minus"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_tv3"
+        app:layout_constraintEnd_toStartOf="@+id/vr_tv6"
+        app:layout_constraintTop_toTopOf="@+id/vr_tv3" />
+
+    <TextView
+        android:id="@+id/vr_tv6"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="@string/_1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_btn2"
+        app:layout_constraintEnd_toStartOf="@+id/vr_btn3"
+        app:layout_constraintTop_toTopOf="@+id/vr_btn2" />
+
+    <Button
+        android:id="@+id/vr_btn3"
+        style="@style/SecondaryButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/plus"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vr_btn2" />
+
+    <TextView
+        android:id="@+id/vr_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/date_checkout"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/vr_tv3"
+        app:layout_constraintStart_toStartOf="@+id/vr_tv3" />
+
+    <TextView
+        android:id="@+id/vr_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="#B1B1B1"
+        android:text="@string/dd_mm_yyyy"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_tv2"
+        app:layout_constraintStart_toEndOf="@+id/vr_tv2"
+        app:layout_constraintTop_toTopOf="@+id/vr_tv2" />
+
+    <Button
+        android:id="@+id/vr_btn4"
+        style="@style/SecondaryButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:drawable/ic_menu_my_calendar"
+        android:textAlignment="center"
+        android:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_tv5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vr_tv5"
+        app:layout_constraintTop_toTopOf="@+id/vr_tv5" />
+
+    <TextView
+        android:id="@+id/vr_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/date_checkin"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/vr_tv2"
+        app:layout_constraintStart_toStartOf="@+id/vr_tv2" />
+
+    <TextView
+        android:id="@+id/vr_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B1B1B1"
+        android:text="@string/dd_mm_yyyy"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_tv1"
+        app:layout_constraintStart_toStartOf="@+id/vr_tv5"
+        app:layout_constraintTop_toTopOf="@+id/vr_tv1" />
+
+    <Button
+        android:id="@+id/vr_btn5"
+        style="@style/SecondaryButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_menu_my_calendar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_tv4"
+        app:layout_constraintStart_toStartOf="@+id/vr_btn4"
+        app:layout_constraintTop_toTopOf="@+id/vr_tv4" />
+
+    <Button
+        android:id="@+id/vr_btn6"
+        style="@style/MtButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/see_pricing"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/vr_btn1"
+        app:layout_constraintEnd_toEndOf="@+id/vr_btn1"
+        app:layout_constraintStart_toStartOf="@+id/vr_btn1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
